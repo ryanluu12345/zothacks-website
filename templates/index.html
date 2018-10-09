@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>ZotHacks 2018</title>
+
+        <!-- Link to static assets-->
+        <link rel="stylesheet" href="../static/css/index.css">
+        <script src = "../static/js/index.js"></script>
+
+        <!-- Font references-->
+        <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    
+        <!-- Responsive for mobile-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    </head>
+
+    <body>
+
+        <div id = "content">
+        <!-- Navigation Bar-->
+        <div id = "navbar" class ="navbar">
+
+            <a id="logo-ref" href = "#"><img id = "logo" src = "./static/img/logo.png" alt = "logo" /> </a>
+
+            <nav id = "nav-elements">
+
+                <p class = "nav-element"> <a href = "https://bit.ly/zothacks"> Apply </a></p>
+                <p class = "nav-element"> <a href = "#about"> About </a> </p>
+                <p class = "nav-element"> <a href = "#values"> Values </a> </p>
+                <p class = "nav-element"> <a href = "#faqs"> FAQs </a> </p>
+                <p class = "nav-element"> <a href = ""> Contact </a> </p>
+                
+                <div class = "dropdown-content">
+                    <a href = "https://bit.ly/zothacks">Apply</a>
+                    <a href="#">About</a>
+                    <a href="#">Values</a>
+                    <a href="#">FAQ</a>
+                    <a href="#">Contact</a>
+                </div>
+                <p class = "nav-element">
+                    <a id="icon-bars" href="javascript:void(0);" class="icon" onclick="toggleResponsive()">
+                        <i class="fa fa-bars"></i>
+                    </a>
+                </p>
+                
+            </nav>
+
+        </div>
+
+        <!-- Main landing page-->
+        <div id="landing" class = "background-tint">
+
+            <div id="title">
+                ZotHacks
+            </div>
+
+            <div id = "tagline">
+                Information Going Viral
+            </div>
+
+            <div id = "date">
+                November 17, 2018
+            </div>
+
+            <a id= "apply" href = "https://bit.ly/zothacks">Apply </a>
+
+
+        </div>
+
+        <!-- About portion-->
+        <div id = "about">
+
+            <div id ="about-title" class = "section-title"> About ZotHacks</div>
+
+            <div id = "about-content">
+
+                <div id = "about-text">
+
+                    ZotHacks is a 12 hour mini-hackathon geared towards beginners. The focus of ZotHacks is to provide people with a gentle introduction into hackathons and crafting meaningful projects. We hope to make hackathons less intimidating and more accessible to newer hackers. The event will be complete with mentorship, helpful workshops, and collaboration.
+
+                </div>
+
+                <img id = "about-img" src = "./static/img/hackuci.jpg" alt = "hackathon image" />
+
+            </div>
+
+        </div>
+
+        <!-- Values with icons and explanations-->
+        <div id = "values">
+
+            <div class="section-title"> Core Values </div>
+
+            <!-- Container that holds all of the cards-->
+            <div id="cards">
+
+                <!-- Value card that contains the title, logo, and description-->
+                <div class = "card">
+
+                    <h3 class = "card-title"> Learn </h3>
+                    <!-- Icon made by Freepik on Flaticon-->
+                    <img class = "card-icon" src = "./static/img/study.png" />
+                    <p class = "card-description"> Learn new technologies and grow your technical skills.</p>
+
+                </div>
+
+                <div class = "card">
+
+                    <h3 class = "card-title"> Explore </h3>
+                    <!-- Icon made by Freepik on Flaticon-->
+                    <img class = "card-icon" src = "./static/img/explore.png" />
+                    <p class = "card-description"> Explore the hackathon experience and ideas that have impact.</p>
+
+                </div>
+
+                <div class = "card">
+
+                    <h3 class = "card-title"> Create </h3>
+                    <!-- Icon made by Smartline on Flaticon-->
+                    <img class = "card-icon" src = "./static/img/create.png" />
+                    <p class = "card-description"> Create meaningful projects that have a real-world benefit.</p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div id = "faqs">
+
+            <div id ="about-title" class = "section-title"> FAQs</div>
+
+            <div id = "faqs-answers">
+
+                <div id = "faqs-left">
+
+                    <h3 class = "faq-question">
+                        Who is ZotHacks geared towards?
+                    </h3>
+                    
+                    <p class = "faq-answer">
+                        ZotHacks is primarily aimed at people who have never been to a hackathon and want to learn skills that will be useful for future hackathons and meaningful projects.
+                    </p>
+
+                    <h3 class = "faq-question">
+                        How are you determining how people will be accepted into ZotHacks?
+                    </h3>
+                        
+                    <p class = "faq-answer">
+                        We will be evaluating application responses and prior experience with hackathons. 
+                    </p>
+
+                    <h3 class = "faq-question">
+                        How large will teams be and are teams mandatory?
+                    </h3>
+                            
+                    <p class = "faq-answer">
+                        Since collaboration is a strong focus of our event, forming a team is mandatory. Teams will be composed of roughly 4 people each.
+                    </p>    
+
+                </div>
+
+                <div id = "faqs-right">
+                    
+                    <h3 class = "faq-question">
+                        How will teams be formed for ZotHacks?
+                    </h3>
+                            
+                    <p class = "faq-answer">
+                        Currently, we are working on the details of team formation and will provide more details once our team finalizes a plan.
+                    </p>
+        
+                    <h3 class = "faq-question">
+                        How do I know if I have been accepted into ZotHacks?
+                    </h3>
+                                
+                    <p class = "faq-answer">
+                        After the application review process, an email will be sent out to all applicants indicating if they are invited to participate 
+                    </p>
+    
+                    <h3 class = "faq-question">
+                        What can I do to prepare for ZotHacks?
+                    </h3>
+                                    
+                    <p class = "faq-answer">
+                        Come in with enthusiasm, a strong desire to learn about technology, and a fully charged laptop and charger.
+                    </p>   
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div id = "contact-footer">
+
+            <div id = "contact-content">
+                <a href = "https://goo.gl/qWCFcM" class="large-icon fa fa-facebook" id = "facebook"></a>
+
+                <a href = "https://goo.gl/2R77V7" class="large-icon fa fa-instagram" id = "instagram"></a>
+
+                <a href = "https://bit.ly/zothacks" class="large-icon fa fa-google" id = "google-form"></a>
+            </div>
+
+        </div>
+
+    </div>
+    </body>
+
+</html>
